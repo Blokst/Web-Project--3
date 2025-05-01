@@ -1,0 +1,134 @@
+/* Name: Tami Kareem
+Course: Web Dev 10S(PTEC) - P6
+Teacher: Ms Hoitink
+School: Pembina Trails Collegiate
+Date Last Modified: 03/18/2025
+Colour Family: Monochromatic and it is mostly brown and it is commonly associated with history and i like a monochromatic as it isn`t too distracting for the 5-8 auduence who should be able to focus to (https://www.adobe.com/express/colors/brown#:~:text=In%20prehistoric%20times%2C%20the%20color,%E2%80%9Cthose%20dressed%20in%20brown.%E2%80%9D)
+--> 
+*/
+/* sets font family and background color */
+body {
+    background-color: #E3CAA5;
+    padding-top: 20px;
+}
+
+/*  italic font, light background color, centered text */
+div {
+    
+    text-align:left; 
+}
+
+
+/*  changes text color to burlywood */
+#ID-style {
+    color: burlywood; 
+}
+
+/*  uses flex for layout, sets background and padding  makes my nav bar stay still/consistent for my website tuh*/
+.nav-bar {
+    display: flex;
+    background-color: #AD8B73; 
+    justify-content: center; 
+    align-items: center;
+    padding: 10px; 
+    margin: 0; 
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+/*  adds margin to the left and displays inline-block */
+.section-link {
+    margin-left: 30px; 
+    display: inline-block; 
+}
+
+/*  controls image size and margin */
+.treaty-icon {
+    display: inline-block;
+    height: 45px; 
+    margin-right: 15px; 
+}
+/*  displays inline-block for the nav header */
+.nav-header {
+    display: inline-block;
+}
+
+/*  centers the main header text */
+h2 {
+    text-align: center; 
+}
+
+/* floats the image to the right */
+.veryspecial {
+    float: right; 
+}
+
+/*makes text bold */
+.bold {
+    font-weight: bold;
+}
+
+/* makes text italic */
+
+/* Centers text for the element/
+#chillsonmyspine {
+    text-align: center;
+}
+
+/* Adds space above and inside elements */ 
+.superspecial{
+    margin-top: 40px; 
+    padding-top: 10px; 
+}
+
+/* Makes text bold for elements*/
+.goldlink {
+    font-weight: bold;
+}
+
+/* Styles the footer with a light golden background */
+footer {
+    background-color: #b17d3a2b;
+}
+
+/* Styles the main heading with elegant fonts and uppercase bold text */
+.heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 46px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* Styles subheadings with a modern sans-serif italic style */
+.subheading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    font-style: italic;
+}
+
+/* standardized descriptions(  size font family and line spacing/height*/
+*{
+    line-height: 140%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+/* makes images purple to stand out*/
+img{
+    color: purple;
+}
+/* makes the text hover*/
+a:hover{
+    background-color: rgba(80, 55, 27, 0.247);
+    font-size: 18px ;
+    padding: 10px;
+    border-radius: 5px;
+}
+/* aligns the text to the right*/
+#bob{
+    text-align: right;
+}
+
+
